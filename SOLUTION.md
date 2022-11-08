@@ -12,7 +12,7 @@ lowest 3 digit prime number(101) so  Iwent to the 10th folder,1st file and got t
 ***
 Next I commited all these changes by: \
 git add . \
-git commit -m"commiting 3 parts of solution" \
+git commit -m"commiting 3 parts of solution" 
 *** 
 ## Part 4:
 I used: git branch -a \
