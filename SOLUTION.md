@@ -1,7 +1,7 @@
 # How I found the password
-Used git clone https://github.com/gauthamk02/TerminalHunt.git to clone the repository into VS code.
-Created solution directory using VS code.
-##Part 1:
+Used git clone https://github.com/gauthamk02/TerminalHunt.git to clone the repository into VS code./
+Created solution directory using VS code./
+## Part 1:
 For part 1 of the solution I multiplied 6 with 44,got 264 whic his the atomic mass of bohrium,whose atomic number
 is 107.
 ## Part 2:
