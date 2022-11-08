@@ -21,7 +21,7 @@ using: git checkout remotes/origin/asia \
 then used: "find . name athens.txt" to find the 4th and final part. \
 then I switched to the main branch using: git checkout main \
 merged the branch remotes/origin/asia to main using: git merge remotes/origin/asia \
-and shifted the athens.txt to my solution folder and renamed it part 4. \
+and shifted the athens.txt to my solution folder and renamed it part 4. 
 ***
 Next I put all the 4 parts together under password.txt and unlocked the pdf using the password... \
 Successful!!!
