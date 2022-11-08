@@ -1,13 +1,13 @@
-#How I found the password
+# How I found the password
 Used git clone https://github.com/gauthamk02/TerminalHunt.git to clone the repository into VS code.
 Created solution directory using VS code.
 ##Part 1:
 For part 1 of the solution I multiplied 6 with 44,got 264 whic his the atomic mass of bohrium,whose atomic number
 is 107.
-##Part 2:
+## Part 2:
 The HCF of 336 and 702 is 6,the fourth digit of pi is 1,so from the 6th folder 1st file I got the code for 
 part 2.
-##Part 3:
+## Part 3:
 Next I opened GitHub and checked the previous commits made,where I was told to go to the file which wsa the 
 lowest 3 digit prime number(101) so  Iwent to the 10th folder,1st file and got the code for part 3.
 ***
@@ -15,7 +15,7 @@ Next I commited all these changes by:
 git add .
 git commit -m"commiting 3 parts of solution"
 ***
-##Part 4:
+## Part 4:
 I used:
 git branch a 
 and then switched to the branch: remotes/origin/asia
