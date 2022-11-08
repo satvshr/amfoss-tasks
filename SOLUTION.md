@@ -15,8 +15,7 @@ git add . \
 git commit -m"commiting 3 parts of solution" \
 *** 
 ## Part 4:
-I used: \
-git branch a \
+I used: git branch -a \
 and then switched to the branch: remotes/origin/asia \
 using: git checkout remotes/origin/asia \
 then used: "find . name athens.txt" to find the 4th and final part. \
