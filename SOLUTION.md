@@ -29,4 +29,4 @@ Next I put all the 4 parts together under password.txt and unlocked the pdf usin
 Successful!!!
 
 ![Screenshot from 2022-11-08 22-28-17](https://user-images.githubusercontent.com/112589278/200644640-c991992b-8707-4b97-83f5-e4c2d86e02ab.png)
-7656-d89424ef-fffe-45a3-81de-3e35fc7462b5.png)
+
