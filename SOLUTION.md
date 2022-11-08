@@ -19,8 +19,8 @@ I used: \
 git branch a \
 and then switched to the branch: remotes/origin/asia \
 using: git checkout remotes/origin/asia \
-then used: find . name athens.txt to find the 4th and final part. \
-then I switched ot the main branch using: git checkout main \
+then used: "find . name athens.txt" to find the 4th and final part. \
+then I switched to the main branch using: git checkout main \
 merged the branch remotes/origin/asia to main using: git merge remotes/origin/asia \
 and shifted the athens.txt to my solution folder and renamed it part 4. \
 ***
