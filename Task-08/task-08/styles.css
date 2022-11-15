@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-color: #eb9a04;
+  font-family: 'Roboto Mono', monospace;
+}
+  h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #DA0463;
+
+}
+.w {
+  background-color: #4CAF50;
+  
+
+}
+
+.a {
+  background-color: #f700cd;
+  
+}
+
+.s {
+  background-color: #555555;
+  
+}
+
+.d {
+  background-color: #008CBA;
+  
+
+}
+
+.j {
+  background-color: #00cdf1;
+  
+}
+
+.k {
+  background-color: #f50000;
+  
+
+}
+
+.l {
+  background-color: #fbff00;
+   
+
+}
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 10px 3px 4px #2600ff;
+  opacity: 0.5;
+}
+.red {
+  color: red;
+}
+.drum {
+  outline: none;
+  font-family: 'Rubik Bubbles', cursive;
+  opacity: 1.0;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  
+}
