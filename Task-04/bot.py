@@ -58,12 +58,12 @@ def getList(message):
     row = [json62["Title"], json62["Year"], json62["Released"], json62["imdbRating"]]
     filename = "movie.csv"
     
-    with open(filename, 'w') as csvfile:
+    with open(filename, 'a') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(fields)
         csvwriter.writerow(row)
   
-    with open(filename,"r") as readfile:
+    with open(filename,'r') as readfile:
         
 
         bot.send_document(message.chat.id, readfile)
