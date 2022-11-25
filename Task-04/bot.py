@@ -38,7 +38,7 @@ def getMovie(message):
     z=name_id.lstrip("/movie ")
     bot.reply_to(message, 'Getting movie info...')
     # movURL="http://www.omdbapi.com/apikey="+yourkey+"&/?s="+z
-    movURL = f'http://www.omdbapi.com/?apikey=c98889f&t={z}'
+    movURL = f'http://www.omdbapi.com/?apikey={yourkey}f&t={z}'
     response = requests.get(movURL)
     global json62
     json62 = response.json()  
