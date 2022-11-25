@@ -1,2 +1,2 @@
-Legit took me the longest time out of all the tasks and it isn't even funny anymore.
+Legit took me the longest amount of time out of all the tasks and it isn't even funny anymore.
 
