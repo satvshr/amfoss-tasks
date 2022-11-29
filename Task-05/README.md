@@ -3,7 +3,7 @@ I think I deserved this bit of luck after all I went through for the telebot :p 
 
 
 
-
+(https://clipchamp.com/watch/D5QRGchBud6)
 
 
 
