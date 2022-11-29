@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7OIcYWm80ssU4N1ZfisGbw6E7P/eDct69YT2mXFdN8J855PxNvVy30p7vJtwrbETtXjafeYmhW7onEDLPRLKAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\satvm\\debugging\\task-05\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\satvm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
