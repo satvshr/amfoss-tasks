@@ -1,3 +1,4 @@
+
 import os
 import telebot
 import requests
@@ -16,13 +17,13 @@ def greet(message):
     botRunning = True
     bot.reply_to(
         message, 'Hello there! I am a bot that will show movie information for you and export it in a CSV file.\n\n')
-    
+
 @bot.message_handler(commands=['stop', 'bye'])
 def goodbye(message):
     global botRunning
     botRunning = False
     bot.reply_to(message, 'Bye!\nHave a good time')
-    
+
 
 
 @bot.message_handler(func=lambda message: botRunning, commands=['help'])
@@ -38,14 +39,14 @@ def getMovie(message):
     z=name_id.lstrip("/movie ")
     bot.reply_to(message, 'Getting movie info...')
     # movURL="http://www.omdbapi.com/apikey="+yourkey+"&/?s="+z
-    movURL = f'http://www.omdbapi.com/?apikey={yourkey}f&t={z}'
+    movURL = f'http://www.omdbapi.com/?apikey={yourkey}&t={z}'
     response = requests.get(movURL)
     global json62
     json62 = response.json()  
     a = "Movie Name:"+json62["Title"]+"\n"+"Movie release date:"+json62["Year"]+"\n"+"Released:"+json62["Released"]+"\n"+"Movie imdbRating:"+json62["imdbRating"]+"\n"   
     bot.send_photo(message.chat.id, json62["Poster"], caption=a)
 
- 
+
     # TODO: 1.2 Get movie information from the API
     # TODO: 1.3 Show the movie information in the chat window
     # TODO: 2.1 Create a CSV file and dump the movie information in it
@@ -57,14 +58,13 @@ def getList(message):
     fields = ["Movie", "Year", "Released", "imdbRating"]
     row = [json62["Title"], json62["Year"], json62["Released"], json62["imdbRating"]]
     filename = "movie.csv"
-    
-    with open(filename, 'a') as csvfile:
+    with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(fields)
         csvwriter.writerow(row)
-  
-    with open(filename,'r') as readfile:
-        
+
+    with open(filename,"r") as readfile:
+
 
         bot.send_document(message.chat.id, readfile)
 
@@ -79,5 +79,5 @@ def getList(message):
 @bot.message_handler(func=lambda message: botRunning)
 def default(message):
     bot.reply_to(message, 'I did not understand '+'\N{confused face}')
-    
+
 bot.infinity_polling()
