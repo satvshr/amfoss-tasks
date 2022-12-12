@@ -1,0 +1,14 @@
+t = int(input())
+
+for i in range(t):
+    x = int(input())
+    a = list(map(int,input().split()))
+    if a[x-1] == 0:
+        print("NO")
+    elif a[x-1] != 0:
+        y = a[x-1]
+        if a[y-1] == 0:
+            print("NO")
+        elif a[y-1] != 0:
+            print("YES")
+                
