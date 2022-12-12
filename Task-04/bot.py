@@ -23,6 +23,7 @@ def goodbye(message):
     global botRunning
     botRunning = False
     bot.reply_to(message, 'Bye!\nHave a good time')
+    os.remove("movie.csv")
 
 
 
