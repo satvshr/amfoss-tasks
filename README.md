@@ -3,7 +3,7 @@
 
 **Tasks List**|**Description**|**Status**
 --------------|---------------|---------------
-Introspection(https://github.com/satvshr/amfoss-tasks/tree/main/Introspection)
+[Introspection](https://github.com/satvshr/amfoss-tasks/tree/main/Introspection)
 [Task-00](https://github.com/satvshr/amfoss-Tasks/tree/master/Task-00)|Installing Ubuntu|Completed
 [Task-01](https://github.com/satvshr/amfoss-Tasks/tree/master/Task-00)|Staring amFOSS repositories|Completed
 [Task-02](https://github.com/satvshr/amfoss-Tasks/tree/master/Task-02)|Terminal Hunt|Completed
