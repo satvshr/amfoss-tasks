@@ -1,4 +1,4 @@
-# amfoss-tasks
+# Amfoss-tasks
 # Satvik Mishra
 
 **Tasks List**|**Description**|**Status**
