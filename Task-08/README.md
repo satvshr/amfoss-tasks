@@ -1,3 +1,4 @@
+# Internet Explorer
 ## Box shadow *appears* <ins>when you actually click</ins> *a button* !
 ### (Look at second screenshot to see the shadow)
 ![Screenshot from 2022-11-15 16-01-51](https://user-images.githubusercontent.com/112589278/201897806-b119f039-c7bb-4645-a6f1-220f427e2d64.png) \
