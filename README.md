@@ -25,5 +25,5 @@ Task-13|Footfall Counter|Not Completed
 Hey! I am Satvik Mishra in S1 CSE-AI, I Have been living in Kolkata for the last 8 years, I was born in Indore, Madhya Pradesh(my mom's hometown) and my dad is from Orissa, so whenever someone asks me where I am from it turns into a small 50 word essay. I also have ADHD and terrible anxiety which helps me when I am solving very complex problems but comes to bite me back when I have to do the most simple problems as I tend to end up overthinking the problem and doing it in the most complex way humanly possible...
 
 ## My views about the tasks
-The tasks difficulty varies from easy to hard hence making sure to not discourage us completely while also ensuring that we try our absolute best to complete a few of them without getting frustrated and giving up on them.
+The tasks difficulty varies from easy to hard hence making sure to not discourage us completely while also ensuring that we try our absolute best to complete them without getting frustrated and giving up on them.
 Even though I could not do all the tasks I do feel extremely proud of having acomplished so much over 1 month which also made me confident about entering the wide world of programming.
