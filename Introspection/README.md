@@ -1,7 +1,7 @@
 # Introspection
 ## Why must we choose you?
 The main reason you should choose me is because I need this club and its mentors' experience way more than anyone can imagine.  
-I spent my last 2 years (classes 11 and 12) doing absolutely nothing and now that I've realised what a blunder I had made I want to give it my absolute best in college,which was one of the main reasons I joined this campus as I already had read about this club on Quora. I promise to bring all my dedication and hardwork into whatever I do as a part of the club and give it  all my blood, sweat and tears.
+I spent my last 2 years (classes 11 and 12) doing absolutely nothing and now that I've realised what a blunder I had made I want to give it my absolute best in college,which was one of the main reasons I joined this campus as I already had read about this club on Quora(I had already taken a small 2 hour course on GitHub before joining college as I had read on quora that it'll be useful in order to do the tasks). I promise to bring all my dedication and hardwork into whatever I do as a part of the club and give it  all my blood, sweat and tears.
 
 ## What is your plan for the next 6 months?
 In the next 6 months I plan to settle into this environment with a fixed and healthy schedule (which includes exercising, something I haven't started doing over here). If I do end up becoming a part of this club I would definitely want to deep dive into the world of flutter and app development, something I could also do on my own in case I get rejected but obviously being a part of this clubs app development team and being guided my mentors like Rishab bhaiya, Aman bhaiya and Akshat Bhaiya would give me a tremendous boost in terms of resources.
