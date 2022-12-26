@@ -5,14 +5,10 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       }
     }
@@ -52,19 +48,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\satvm\\.nuget\\packages\\": {}
+    "/home/satvshr/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\satvm\\debugging\\task-05\\Server\\Server.csproj",
+      "projectUniqueName": "/home/satvshr/Desktop/amfoss-tasks/Task-05/Server/Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\satvm\\debugging\\task-05\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\satvm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\satvm\\debugging\\task-05\\Server\\obj\\",
+      "projectPath": "/home/satvshr/Desktop/amfoss-tasks/Task-05/Server/Server.csproj",
+      "packagesPath": "/home/satvshr/.nuget/packages/",
+      "outputPath": "/home/satvshr/Desktop/amfoss-tasks/Task-05/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\satvm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/satvshr/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -99,8 +95,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -109,7 +104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1LVOWzz8cTF47iGLxHBajskqzZ/ZpZsQC+u+yO9DiCMGyQIQTzcPS9MnEAcoKIkyM2VxA7yxFlL1LuZR/yoiHA==",
+  "dgSpecHash": "r573MR81uHzlnPS+UdGQd16ZDdimaK/BgiKeZSsU33EmDE/F1JGvid/b9Bzb7mTDySZO5LS4FI2HxmHrKn/g3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\satvm\\debugging\\task-05\\Client\\Client.csproj",
+  "projectFilePath": "/home/satvshr/Desktop/amfoss-tasks/Task-05/Client/Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\satvm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "/home/satvshr/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

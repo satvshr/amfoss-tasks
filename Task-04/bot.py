@@ -15,6 +15,13 @@ botRunning = True
 def greet(message):
     global botRunning
     botRunning = True
+    global filename
+    filename = "movie.csv"
+    fields = ["Movie", "Year", "Released", "imdbRating"]
+
+    with open(filename, 'a') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(fields)
     bot.reply_to(
         message, 'Hello there! I am a bot that will show movie information for you and export it in a CSV file.\n\n')
 
@@ -46,6 +53,10 @@ def getMovie(message):
     json62 = response.json()  
     a = "Movie Name:"+json62["Title"]+"\n"+"Movie release date:"+json62["Year"]+"\n"+"Released:"+json62["Released"]+"\n"+"Movie imdbRating:"+json62["imdbRating"]+"\n"   
     bot.send_photo(message.chat.id, json62["Poster"], caption=a)
+    row = [json62["Title"], json62["Year"], json62["Released"], json62["imdbRating"]]
+    with open(filename, 'a') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(row)
 
 
     # TODO: 1.2 Get movie information from the API
@@ -56,13 +67,6 @@ def getMovie(message):
 def getList(message):
     bot.reply_to(message, 'Generating file...')
     #TODO: 2.2 Send downlodable CSV file to telegram chat
-    fields = ["Movie", "Year", "Released", "imdbRating"]
-    row = [json62["Title"], json62["Year"], json62["Released"], json62["imdbRating"]]
-    filename = "movie.csv"
-    with open(filename, 'a') as csvfile:
-        csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(fields)
-        csvwriter.writerow(row)
 
     with open(filename,"r") as readfile:
 

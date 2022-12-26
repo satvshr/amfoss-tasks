@@ -7,7 +7,7 @@ void main() {
   runApp(GameWidget(game: MyGame()));
 }
 
-class MyGame extends FlameGame with HasDraggables {
+class MyGame extends FlameGame with HasDraggable {
   late final JoystickComponent joystick;
   @override
   Future<void> onLoad() async {
